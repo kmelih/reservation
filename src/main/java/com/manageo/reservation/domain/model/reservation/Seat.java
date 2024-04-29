@@ -7,6 +7,10 @@ public class Seat {
 	public Seat(int seatNumber) {
 		this.seatNumber = seatNumber;
 	}
+
+	public int getSeatNumber() {
+		return seatNumber;
+	}
 	
 	
 

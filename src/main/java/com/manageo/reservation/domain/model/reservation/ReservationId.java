@@ -17,4 +17,9 @@ public class ReservationId {
 		return id;
 	}
 
+	public UUID getId() {
+		return id;
+	}
+
+
 }

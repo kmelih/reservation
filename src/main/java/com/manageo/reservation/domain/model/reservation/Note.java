@@ -7,6 +7,10 @@ public class Note {
 	public Note(String content) {
 		this.content = content;
 	}
+
+	public String getContent() {
+		return content;
+	}
 	
 	
 
