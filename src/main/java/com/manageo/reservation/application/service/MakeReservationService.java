@@ -17,6 +17,7 @@ public class MakeReservationService implements MakeReservationUseCase {
 
 	@Override
 	public Reservation apply(Reservation reservation) {
+		//TODO call CheckAvailabilityService
 		return reservationRepository.save(reservation);
 		
 	}

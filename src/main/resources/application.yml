@@ -6,3 +6,5 @@ spring:
     url: jdbc:h2:mem:testdb
     username: sa
     password:
+resource:
+  url: http://localhost:8081/restaurant-service
